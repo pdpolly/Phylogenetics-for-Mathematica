@@ -5,6 +5,8 @@ This add-in package for Mathematica performs basic phylogenetic functions, inclu
 
 <b>Changes in Version 6.x.</b>  Many new functions.  PhylogeneticRegression performs a PGLS linear regression, MapTraitsOntoTree produces a colored graphic showing estimated trait values on a phylogenetic tree, PruneTree extracts a tree for a selected subset of taxa in a larger tree, Kappa estimates Blomberg's K for a univariate trait, KappaMultivariate estimates Adams' K for a highly multivariate geometric morphometric data set, and SharedPhylogeneticHistory and MeanTreeDistance report statistics useful in the study of phylogenetic community assembly.  New and more efficient functions are also available for estimating rates and ancestral node values for traits.  Changed all "Modules" to "Blocks" for improved efficiency.
 
+<b>Changes in Version 6.6</b> Updated <i>Pagel's Lambda[]</i> and added new function <i>LambdaMultiplication[]</i>.
+
 Funding for development for this package has been provided by grants NSF EAR 1338298, the Robert R. Shrock fund at Indiana University, the Yale Institute for Biospheric Studies, and the Lilly Endowment through its support for the Indiana University Pervasive Technology Institute and the Indiana METACyt Initiative.
 
-<b>Cite as:</b> Polly, P.D. 2019. Phylogenetics for Mathematica. Version 6.5. https://github.com/pdpolly/Phylogenetics-for-Mathematica
+<b>Cite as:</b> Polly, P.D. 2022. Phylogenetics for Mathematica. Version 6.6. https://github.com/pdpolly/Phylogenetics-for-Mathematica
