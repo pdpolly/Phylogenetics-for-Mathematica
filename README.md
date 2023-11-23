@@ -11,4 +11,4 @@ This add-in package for Mathematica performs basic phylogenetic functions, inclu
 
 Funding for development for this package has been provided by grants NSF EAR 1338298, the Robert R. Shrock fund at Indiana University, the Yale Institute for Biospheric Studies, and the Lilly Endowment through its support for the Indiana University Pervasive Technology Institute and the Indiana METACyt Initiative.
 
-<b>Cite as:</b> Polly, P.D. 2023. Phylogenetics for Mathematica. Version 6.7. https://github.com/pdpolly/Phylogenetics-for-Mathematica
+<b>Cite as:</b> Polly, P.D. 2023. Phylogenetics for Mathematica. Version 6.8. https://github.com/pdpolly/Phylogenetics-for-Mathematica
