@@ -1,8 +1,7 @@
 # Phylogenetics-for-Mathematica
 <img
   src="https://github.com/pdpolly/Phylogenetics-for-Mathematica/blob/main/PhyloIconGitHub.jpg"
-  alt="Alt text"
-  title="Optional title"
+  alt="decorative image"
   style="display: inline-block; margin: 0 auto; max-width: 100px">
   
 This add-in package for Mathematica performs basic phylogenetic functions, including reading and drawing Newick format trees, calculating phylogenetically independent contrasts, reconstructing ancestral values for continuous traits, performing random walks, and simulating continuous traits on phylogenetic trees.
