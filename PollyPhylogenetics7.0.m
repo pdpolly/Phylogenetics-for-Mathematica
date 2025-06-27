@@ -343,8 +343,7 @@ TreeXY[[Flatten[Position[TreeXY[[1;;,1]],ExtNodeNames[[x]]]],3]]=Mean[TreeXY[[Fl
 
 (* Horizontal lines *)
 (* Vertical lines *)
-TreeLines={{Thick,Line[{Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[1]]]],{2,3}]]],Flatten[{Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[2]]]],{2}]]],Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[1]]]],{3}]]]}]}]&/@TreeTable},{Thick,Line[{Flatten[{Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[2]]]],{2}]]],Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[1]]]],{3}]]]}],Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[2]]]],{2,3}]]]}]&/@TreeTable},
-};
+TreeLines={{Thick,Line[{Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[1]]]],{2,3}]]],Flatten[{Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[2]]]],{2}]]],Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[1]]]],{3}]]]}]}]&/@TreeTable},{Thick,Line[{Flatten[{Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[2]]]],{2}]]],Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[1]]]],{3}]]]}],Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],#[[2]]]],{2,3}]]]}]&/@TreeTable}};
 (* tip labels *)
 TreeTipLabels=Table[{FontFamily->"Arial",FontSize->12,Text[StringReplace[TipNames[[x]],{"_"->" ","-"->" "}],Flatten[TreeXY[[Flatten[Position[TreeXY[[1;;,1]],TipNames[[x]]]],{2,3}]]],{-1.3,0}]},{x,Length[TipNames]}];
 (* node labels *)
